@@ -29,6 +29,17 @@ below][].
 Installation
 ------------
 
+### Pug
+
+In deps.pug:
+
+```shell
+#!/usr/local/bin/pug load
+
+tmux github: javanut13/vim-tmux-navigator
+vim github: javanut13/vim-tmux-navigator
+```
+
 ### Vim
 
 If you don't have a preferred installation method, I recommend using [Vundle][].
