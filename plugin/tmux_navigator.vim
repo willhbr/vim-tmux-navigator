@@ -182,13 +182,13 @@ if s:UseTmuxNavigatorMappings()
   nnoremap <silent> <c-l> :TmuxNavigateRight<cr>
   nnoremap <silent> <c-\> :TmuxNavigatePrevious<cr>
 
-  inoremap <silent> <M-h> <c-o>:TmuxResizeLeft<cr>
-  inoremap <silent> <M-j> <c-o>:TmuxResizeDown<cr>
-  inoremap <silent> <M-k> <c-o>:TmuxResizeUp<cr>
-  inoremap <silent> <M-l> <c-o>:TmuxResizeRight<cr>
+  inoremap <silent> <C-z>h <c-o>:TmuxResizeLeft<cr>
+  inoremap <silent> <C-z>j <c-o>:TmuxResizeDown<cr>
+  inoremap <silent> <C-z>k <c-o>:TmuxResizeUp<cr>
+  inoremap <silent> <C-z>l <c-o>:TmuxResizeRight<cr>
 
-  nnoremap <M-h> :TmuxResizeLeft<cr>
-  nnoremap <M-j> :TmuxResizeDown<cr>
-  nnoremap <M-k> :TmuxResizeUp<cr>
-  nnoremap <M-l> :TmuxResizeRight<cr>
+  nnoremap <silent> <C-z>h :TmuxResizeLeft<cr>
+  nnoremap <silent> <C-z>j :TmuxResizeDown<cr>
+  nnoremap <silent> <C-z>k :TmuxResizeUp<cr>
+  nnoremap <silent> <C-z>l :TmuxResizeRight<cr>
 endif
